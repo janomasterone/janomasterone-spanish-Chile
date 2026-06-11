@@ -20,6 +20,9 @@ En distribuciones base Arch, el archivo .ttf se debe mover al directorio "/usr/l
 Proyecto con fin educativo o por mera fruición si os agrada el arte de la caligrafía en su expresión más elemental.
 Aplicación práctica para el estudio y aprendizaje del idioma español manuscrito.
 
+<img width="1280" height="640" alt="image" src="https://github.com/user-attachments/assets/15d47043-4cb8-4bfb-8fca-354c8c2724e4" />
+
+
 
 
 
