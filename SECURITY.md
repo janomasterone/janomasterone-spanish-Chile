@@ -2,8 +2,7 @@
 
 Dado que el proyecto es autodidacta por alguien que no es versado en el área de ciberseguridad, si encuentra cualquier riesgo de seguridad, favor reportar públicamente el repositorio o puede enviar alerta al correo janomasterone@live.com, actualmente se ha revisado en www.virustotal.com 
 <br>
-! [virustotal] (<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/c54e2d8d-b491-4201-820a-09b3e04658a1" />
-)
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/c54e2d8d-b491-4201-820a-09b3e04658a1" />
 
 ## ERRORES FRECUENTES
 
