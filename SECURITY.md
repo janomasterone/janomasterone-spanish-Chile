@@ -14,7 +14,7 @@ Para extremar precauciones, se recomienda iniciar desde una sesión live, descar
 
 ## SOBREESCRITURA
 
-Para actualizar la fuente, se debe seguir el mismo procedimiento de la instalación, puede sbreescribir directamente el archivo.ttf o eliminar el antiguo y pegar el nuevo.
+Para actualizar la fuente, se debe seguir el mismo procedimiento de la instalación, puede sobreescribir directamente el archivo.ttf o eliminar el antiguo y pegar el nuevo.
 
 ## CAMBIO DE NOMBRE
 
