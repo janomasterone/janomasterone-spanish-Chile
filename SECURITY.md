@@ -2,7 +2,7 @@
 
 Dado que el proyecto es autodidacta por alguien que no es versado en el área de ciberseguridad, si encuentra cualquier riesgo de seguridad, favor reportar públicamente el repositorio o puede enviar alerta al correo janomasterone@live.com, actualmente se ha revisado en www.virustotal.com 
 <br>
-! [virustotal] (Capturas de pantalla/Captura de pantalla_20260611_131450.png)
+! [virustotal] (/Capturas de pantalla/Captura de pantalla_20260611_131450.png)
 
 ## ERRORES FRECUENTES
 
