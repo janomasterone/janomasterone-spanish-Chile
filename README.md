@@ -11,13 +11,15 @@ Proyecto autodidacta,debido a la falta de conocimiento respecto a los script y r
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ed2f7854-e2e7-4321-8483-700bfc8e8ed7" />
 
-
-## Prueba e Instalación 
-Se está testeando en la distribución Garuda Mokka, Linux Mint Cinnamon, Nobara Official, openSUSE Tumbleweed y la aplicación LibreOffice Write. Requiere intervención manual en los directorios del sistema.
+## Instalación 
+Requiere intervención manual en los directorios del sistema.
 En distribuciones base Arch, Debian, Fedora, openSUSE, el archivo .ttf se debe mover/copiar al directorio "/usr/local/share/fonts/" (puede quedar solo el archivo .ttf o puede crear una subcarpeta para manter el orden simétrico de los directorios, en ambos será reconocido por el sistema) y luego actualizar la caché de fuentes desde terminal con el comando "sudo fc-cache -f -v", eso permitirá aplicar a todo el sistema y que pueda ser reconocido por las aplicaciones, después, dependiendo de su necesidad, puede aplicar el diseño de fuentes desde la configuración del sistema o directamente desde las aplicaciones que permiten escoger tipos de fuentes . Debido a la amplia cantidad de distribuciones Linux y entornos de escritorio, se recomienda confirmar buscando en la documentación oficial de su distribución para verificar el directorio correspondiente y los pasos a seguir para cambiar el estilo de letra en el sistema, desde el entorno de escritorio KDE Plasma: Preferencias del sistema > Texto y tipo de letras > Tipos de letra. 
 Para instalar solo a nivel usuario, el proceso es idéntico, debe mover el archivo .ttf al directorio /.local/share/fonts/ y luego actualizar la caché de fuentes desde terminal con el comando "fc-cache -f -v", aquí no es necesario ingresar como root (los directorios que comienzan con un punto son carpetas que están ocultas, para hacerlas visibles debe presionar las teclas "ctrl+h")
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/c5d3164d-eea3-4a3a-9591-91b632087b6d" />
+
+## Prueba
+Se está testeando en las distribuciones Garuda Mokka, Linux Mint Cinnamon, Nobara Official, openSUSE Tumbleweed y la aplicación LibreOffice Write. 
 
 ## Objetivo
 Proyecto con fin educativo o por mera fruición si os agrada el arte de la caligrafía en su expresión más elemental.
