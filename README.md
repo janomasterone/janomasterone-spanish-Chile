@@ -18,7 +18,9 @@ Para instalar solo a nivel usuario, el proceso es idéntico, debe mover el archi
 
 Desde el entorno de escritorio KDE Plasma: Preferencias del sistema > Texto y tipo de letras > Tipos de letra. 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/c5d3164d-eea3-4a3a-9591-91b632087b6d" />
+
 Desde el entorno de escritorio Cinnamon: Configuración del sistema > Apariencia > Selección de tipografías.
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/c8778f4c-f2b2-4336-8e9b-a094b629888d" />
 
 (Debido a la amplia cantidad de distribuciones Linux y entornos de escritorio, se recomienda confirmar buscando en la documentación oficial de su distribución para verificar el directorio correspondiente y los pasos a seguir para cambiar el estilo de letra en el sistema)
 
