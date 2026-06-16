@@ -23,10 +23,9 @@ Desde el entorno de escritorio Cinnamon: Configuración del sistema > Apariencia
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/c8778f4c-f2b2-4336-8e9b-a094b629888d" />
 
 Desde el entorno de escritorio XFCE: Configuración > Apariencia > Letras.
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ca2de028-0ec1-41d9-8b0e-74e372c22f36" />
 
-
-
-(Debido a la amplia cantidad de distribuciones Linux y entornos de escritorio, se recomienda confirmar buscando en la documentación oficial de su distribución para verificar el directorio correspondiente y los pasos a seguir para cambiar el estilo de letra en el sistema)
+*(Debido a la amplia cantidad de distribuciones Linux y entornos de escritorio, se recomienda confirmar buscando en la documentación oficial de su distribución para verificar el directorio correspondiente y los pasos a seguir para cambiar el estilo de letra en el sistema)
 
 ## Prueba
 Se ha testeado en las distribuciones Garuda Mokka, Linux Mint Cinnamon, Nobara Official, openSUSE Tumbleweed, Linux Kodachi y la aplicación LibreOffice Write. 
