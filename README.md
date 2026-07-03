@@ -17,10 +17,13 @@ En distribuciones base Arch, Debian, Fedora, openSUSE, el archivo .ttf se debe m
 Para instalar solo a nivel usuario, el proceso es idéntico, debe mover el archivo .ttf al directorio ~/.local/share/fonts/ y luego actualizar la caché de fuentes desde terminal con el comando "fc-cache -fv", (los directorios que comienzan con un punto son carpetas que están ocultas, para hacerlas visibles debe presionar las teclas "ctrl+h")
 
 Debido a la diferencia de permisos entre distribuciones, recomendaré copiar desde termminal usando "cp", para ello simplemente sigue el siguiente comando:
+
 sudo cp [origen] [destino]  
 Se respeta el espacio y las direcciones se escriben sin los corchetes, en "origen" se escribe la dirección del archivo .ttf descargado (es más rápido copiar y pegar directamente en la terminal) y en "destino" es la ruta absoluta del sistema que se encarga de las tipografías (es más rápido ir directamente al directorio de las fuentes tipográficas para copiar la dirección desde la barra de direcciones). Si crea la carpeta y mueve dentro de esta el archivo .ttf, para copiar la carpeta y su contenido el comando es:
+
 sudo cp -r [origen] [destino]
 El comando "cp" creará una copia exacta del archivo sin eliminar el original. Si prefiere mover el archivo .ttf o carpeta con él (una vez copiado el archivo, se elimina automáticamente en la dirección de origen), usar el comando "mv":
+
 sudo mv [origen] [destino]
 
 Desde el entorno de escritorio KDE Plasma: Preferencias del sistema > Texto y tipo de letras > Tipos de letra. 
