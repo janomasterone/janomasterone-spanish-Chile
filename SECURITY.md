@@ -6,16 +6,22 @@ Dado que el proyecto es autodidacta por alguien que no es versado en el área de
 
 ## ERRORES FRECUENTES
 
-Para permitir una conexión fluida y natural es necesario crear puntos de anclajes a la misma altura en letras con diseño semejante para que la terminación de una letra se superponga con la siguiente, esto funciona para la mayoría de letras, en ocasiones debido a coordenadas mal tipeadas se pueden superponer letras o verse a diferentes alturas. Para letras con un diseño variable como la segunda letra en minúscula (b) es necesario rediseñar un glifo compuesto por las letras conflictivas y agregar instrucciones para que se activen según el orden que se generen. Si encuentra alguno de esos errores puede enviar un mensaje al correo janomasterone@live.com indicando el error con una captura de pantalla o describiendo el error en texto escribiendo la palabra correctamente, para corregir a la brevedad posible. 
+Para permitir una conexión fluida y natural es necesario crear puntos de anclajes a la misma altura en letras con diseño semejante para que la terminación de una letra se superponga con la siguiente, esto funciona para la mayoría de letras, en ocasiones debido a coordenadas mal tipeadas se pueden superponer letras o verse a diferentes alturas. Para letras con un diseño variable como la segunda letra en minúscula (b) es necesario rediseñar un glifo compuesto por las letras conflictivas y agregar instrucciones para que se activen según el orden que se generen. Si encuentra alguno de esos errores puede enviar un mensaje al correo janomasterone@live.com indicando el error con una captura de pantalla o describiendo el error en texto, escribiendo la palabra correctamente, se corregirá a la brevedad posible.
 
 ## RECOMENDACIONES DE SEGURIDAD
 
 Para extremar precauciones, con éste o cualquier otro archivo .ttf, se recomienda iniciar desde una sesión live, descargar el archivo .ttf, analizarlo con algún antivirus o herramienta que busque irregularidades como OpenType Sanitizer (OTS) (disponible en https://github.com/khaledhosny/ots), otras opciones viables es utilizando contenedores o maquinas virtuales luego si todo va bien, puede proceder a agregar en los directorios de su sistema principal.
 
-## SOBREESCRITURA
+## ACTUALIZAR FUENTE
 
-Para actualizar la fuente, se debe seguir el mismo procedimiento de la instalación, puede sobreescribir directamente el archivo.ttf o eliminar el antiguo y pegar el nuevo.
+Para actualizar la fuente, se debe seguir el mismo procedimiento de la instalación, puede sobreescribir directamente el archivo.ttf o eliminar el antiguo y copiar el nuevo, aunque los comandos "cp" y "mv" lo hacen automáticamente así.
 
 ## CAMBIO DE NOMBRE
 
 Para modificar el nombre de la fuente, debe modificar la metadata del archivo, lo cual es posible con la aplicación FontForge desde: Elemento > Nombres PS , luego cambiar nombre de la fuente, de la familia, genérico y derechos de autor, se recomienda hacerlo antes de instalar por primera vez si prefiere un nombre personalizado. Cambiar solo el nombre desde el gestor de archivos no realiza cambios en el nombre de la fuente para el sistema o las aplicaciones.
+
+## OTROS SISTEMAS OPERATIVOS
+
+El archivo .ttf esta modificado y testeado desde linux, se desconoce su funcionamiento en otros sistemas operativos, aunque técnicamente TrueType Font (.ttf) fue creado por Apple y adaptado por Microsoft, actualmente es un tipo de archivo estándar de tipografía o fuente digital, por lo que debería funcionar en al menos macOS y Windows, para lo cual usted deberá investigar al respecto la forma de instalación en dichos sistemas. Lo mismo para Android, iOS, iPadOS, FreeBSD, OpenBSD, Solaris, Haiku, ReactOS, FreeDOS, etcétera. También puede utilizar alguna aplicación de edición de tipografías para generar una nueva fuente con elementos que la hagan compatible a su sistema o cambiar el tipo de extención si es necesario a, .otf, WOFF o WOFF2 u otra variante.
+
+
