@@ -11,7 +11,7 @@ Proyecto autodidacta,debido a la falta de conocimiento respecto a los script, ma
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ed2f7854-e2e7-4321-8483-700bfc8e8ed7" />
 
-## Instalación 
+## Instalación en el sistema
 Requiere intervención manual en los directorios del sistema con permiso de superusuario.
 En distribuciones base Arch, Debian, Fedora, openSUSE, el archivo .ttf se debe mover o copiar en el directorio "/usr/share/fonts/" (puede quedar solo el archivo .ttf o se puede crear una subcarpeta para manter el orden simétrico de los directorios, en ambos será reconocido por el sistema), luego actualizar la caché de fuentes desde terminal con el comando "sudo fc-cache -fv", eso permitirá que pueda ser reconocido por todo el sistema, después, dependiendo de su necesidad, puede aplicar el diseño de fuente desde la configuración del sistema o directamente desde las aplicaciones que permitan escoger tipos de fuentes. 
 Para instalar solo a nivel usuario, el proceso es idéntico, debe mover el archivo .ttf al directorio ~/.local/share/fonts/ y luego actualizar la caché de fuentes desde terminal con el comando "fc-cache -fv", (los directorios que comienzan con un punto son carpetas que están ocultas, para hacerlas visibles debe presionar las teclas "ctrl+h")
@@ -28,6 +28,13 @@ El comando "cp" creará una copia exacta del archivo sin eliminar el original. S
 
 sudo mv [origen] [destino]
 
+Recuerde actualizar la caché de fuentes tipográficas después de copiar o mover el archivo .ttf al directorio del sistema con el comando:
+
+sudo fc-cache -fv
+
+Es necesario reiniciar cuando se sobreescribe.
+
+## Referencia desde diferentes entornos gráficos
 Desde el entorno de escritorio KDE Plasma: Preferencias del sistema > Texto y tipo de letras > Tipos de letra. 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/c5d3164d-eea3-4a3a-9591-91b632087b6d" />
 
